@@ -16,6 +16,6 @@ export const swaggerInfo = {
   author: {
     name: 'von Arx Timo',
     email: 't.vonarx.inf24@stud.bbbaden.ch',
-    url: '-',
+    url: 'finnova.com',
   },
 } as const;
