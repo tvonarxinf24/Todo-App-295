@@ -60,7 +60,7 @@ Timo von Arx
 
 > Kommentar: Die Pufferzeit habe ich nicht gross benötigt, lediglich für das Fazit und Zusätzliches
 
-## Fazit
+## Fazit von Arx Timo
 
 Die Anbindung der Datenbank in das Backend sowie die Arbeit mit Entities und DTOs hat ziemlich gut funktioniert. Auch das Aufsetzen von Swagger verlief problemlos und ich konnte mich somit mehrheitlich gut an meine Planung halten.
 Schwierigkeiten hatte ich vor allem bei den E2E Tests. Am Anfang sind viele Tests gefailt, ich konnte sie jedoch über die Zeit immer weiter beheben.
