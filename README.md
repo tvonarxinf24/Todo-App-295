@@ -14,11 +14,15 @@ Timo von Arx
 - Intercepters migerieren
 - Environment File konfigurieren
 
+> Kommentar: Die Erstellung ging schneller als erwartet, ich war bereits nach etwa 0.5-1 Stunde fertig.
+
 ### Datenbank erstellen und mit Backend Verknüpfen **1 Stunden**
 - SQLLite Datenbank einrichten
 - TypeORM konfigurieren
 - Todo Entitys erstellen
 - Modul Ressourcen (Controller, Service, usw) Erstellen/Generieren für TODOs
+
+> Kommentar: Hier habe ich in der Planung vergessen die DTOs zu erwähnen ich habe diese gleich mit den Entitys erstellt. Dazu habe ich etwas länger gehabt da ich noch den todo-seed Service implementiert habe.
 
 ### TODO Funktionalität implementieren **2 Stunden**
 - REST Endpunkte für TODOs erstellen

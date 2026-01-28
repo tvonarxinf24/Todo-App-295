@@ -275,7 +275,6 @@ export class UserService {
    */
   async remove(corrId: number, id: number) {
     this.logger.verbose(`${corrId} ${this.remove.name} id: ${id}`);
-    // todo: only administrators can delete users
     const existing = await this.repo.findOneBy({ id });
     if (!existing) {
       this.logger.debug(`${corrId} ${this.remove.name} id: ${id} not found`);
