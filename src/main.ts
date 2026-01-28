@@ -7,9 +7,14 @@ import { HttpMetaInterceptor } from './interceptors/http-meta-interceptor.servic
 import { globalPrefix, swaggerInfo, version } from './informations';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-
+  const app = await NestFactory.create(AppModule, {
+    logger: ['error', 'warn'],
+  });
   const configService = app.get(ConfigService);
+  const logSettings = configService.get<string>('APP_LOGGER');
+  const parseArray: string[] = (logSettings ?? '["error"]').split(',');
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+  app.useLogger(parseArray as any);
 
   const port = configService.get<number>('PORT') || 3000;
 
