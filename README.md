@@ -30,14 +30,20 @@ Timo von Arx
 - Berechtigungen Umsetzen
 - Korrekte HTTP Statuscodes zurückgeben
 
+> Kommentar: Hier ist mehrheitlich alles nach Plan gelaufen. Ich habe hier etwa 2 Stunden gebraucht.
+
 ### Validierung und Dokumentation **0.5 Stunde**
 - Decorators für Validierung hinzufügen
 - Swagger Dokumentation erweitern / vervollständigen
+
+> Kommentar: Die Validierung und die Dokumentation ging exakt etwa 0.5 Stunden, ich hatte keine Probleme.
 
 ### Testing **1.5 Stunden**
 - E2E Tests mit Postman ausführen
 - Unit-Tests für Services umsetzen (Todo-Service, Auth-Service)
 - Überprüfung der Testabdeckung (coverage)
+
+> Kommentar: Die Tests haben etwas länger gedauert als geplant, da es einige Fehler gab, die ich beheben musste. Insgesamt hat es jedoch trotzdem geklappt.
 
 ### Pufferzeit **1 Stunde**
 - Um Probleme zu lösen
